@@ -1,0 +1,173 @@
+body{
+  background-color: rgb(127, 53, 245);
+}
+
+.container1{
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+}
+
+header{
+  align-content: center;
+  display: inline-block;
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15, 17, 92);
+  background-color: rgb(255, 255, 255);
+  width: 700px;
+  padding: 10px;
+}
+
+header h1{
+  margin: 20px;
+}
+
+
+.container2{
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 950px;
+}
+
+.introduction{
+  display: flex;
+  background-color: rgb(202, 231, 199);
+  padding: 20px;
+  margin: 20px;
+  border: 2px;
+  border-style: solid;
+  border-color:  rgb(122, 0, 82);
+  width: 900px;
+}
+
+.video{
+  margin-bottom: 20px;
+}
+
+.introtext{
+  margin-left: 20px;
+}
+
+.mainPortfolio{
+  background-color:  rgb(190, 201, 233);
+  width: 900px;
+  margin: 20px;
+  padding: 20px;
+  border: 2px;
+  border-style: solid;
+  border-color:  rgb(0, 48, 33);
+  text-align: center;
+}
+
+.mainPortfolio h2{
+  font-size: 30px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+
+}
+
+.gridImage{
+  width: 200px;
+  border: 2px;
+  border-radius: 2%;
+  border-style: solid;
+  border-color: rgb(23, 12, 75);
+}
+
+.gridImage:hover{
+  opacity: 0.5;
+}
+
+.gridImage:active{
+  opacity: 0.3;
+}
+
+.imageArea{
+  text-align: center;
+}
+
+.imageArea li{
+  display: inline-block;
+  margin: 30px;
+  text-align: center;
+  width: 230px;
+}
+
+.border{
+  margin: 0 auto;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+}
+
+.firstBorder{
+  width: 100%;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color:  rgb(160, 175, 190);
+  padding-top: 20px;
+}
+
+.secondBorder{
+  width: 100%;
+  border-top: 1px;
+  border-top-style: solid;
+  border-top-color:  rgb(160, 175, 190);
+  padding-top: 20px;
+}
+
+.container3{
+  margin: 0 auto;
+  margin-bottom: 0;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1100px;
+}
+
+.logoImage{
+  width: 140px;
+  margin: 50px;
+  margin-top: 10px;
+  margin-bottom: 10;
+}
+
+.logoImage:hover{
+  transform: scale(1.1);
+}
+
+.logoImage:active{
+  transform: scale(0.9);
+}
+
+footer{
+  color: rgb(217, 242, 245);
+  padding: 20px;
+  background-color:  rgb(32, 26, 92);
+  margin: 20px, 20px, 0, 20px;
+  width: 1100px;
+}
+
+footer h4{
+  margin-left: 30px;
+  font-family: Arial;
+  font-size: 30px;
+}
+
+footer p{
+  margin-left: 30px;
+}
+
+
+.textButton:hover{
+  color:  rgb(196, 134, 35);
+}
+
+.textButton:active{
+  color:  rgb(60, 156, 60);
+}
+
+
